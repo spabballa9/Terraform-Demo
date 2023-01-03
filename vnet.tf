@@ -5,6 +5,9 @@ resource "azurerm_virtual_network" "tf-vnet01" {
   resource_group_name = azurerm_resource_group.tf-vnetrsgrp.name 
   location = azurerm_resource_group.tf-vnetrsgrp.location
   address_space = ["10.1.0.0/16", "10.2.0.0/24"]
+   tags = {
+    "environment" = var.environment
+  }
 }
 
 resource "azurerm_subnet" "tf-SubnetA" {
