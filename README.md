@@ -1,4 +1,4 @@
-#Getting Started with Terraform
+# Getting Started with Terraform
 
 **terraform init** - command will initialize or install required dependencies for running the application
 **terraform validate** - is used to validate the syntax of the code
