@@ -14,3 +14,7 @@ While executing the plan or applying the changes, we need to mention the var fil
 
 terraform plan --var-file=tfvars/test.tfvars
 terraform apply --var-file=tfvars/test.tfvars
+
+ terraform state list -  is used for viewing the resources that we have created using tf.
+ 
+ terraform plan -refresh-only - is used for only to get the manually created resources to TF control and on apply it will add those items into state file. 
