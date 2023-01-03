@@ -1,8 +1,11 @@
 # Getting Started with Terraform
 
 **terraform init** - command will initialize or install required dependencies for running the application
+
 **terraform validate** - is used to validate the syntax of the code
+
 **terraform plan** - is used to prepare the plan for the prepared code
+
 **terraform apply** - is used for applying the code changes, on executing this command system will create the resources in remote location.
 
 
